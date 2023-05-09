@@ -1,0 +1,39 @@
+# To manage my tasks by tmux
+
+## Split project
+
+### 1. (Optional) Rename session
+
+`<Prefix> + $`
+
+### 2. Open session
+
+- New session
+  - Create new shell and automatically switch to tmux.
+  - Or `tmux new -s <name>`.
+- Existing session
+  - `<Prefix> + s`
+
+## Split task
+
+### 1. (Optional) Rename window
+
+`<Prefix> + ,`
+
+### 2. Open window
+
+- New window
+  - `<Prefix> + c`
+- Existing window
+  - `<Prefix> + w`
+
+## Commit the task
+
+### Split pane
+
+`<Prefix> + "`
+
+### Switch pane
+
+`<Prefix> + o`
+

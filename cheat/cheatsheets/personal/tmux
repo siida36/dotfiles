@@ -1,0 +1,37 @@
+# tmux
+
+## Preference
+
+- https://gist.github.com/kai-kou/a3756f1fcb4348196ad6752add05f7d6
+
+## Commands
+
+### Sessions
+
+tmux attach: Attach latest session.
+tmux ls: Display sessions.
+tmux new -s <name>: Create <name> session.
+tmux kill-session -t <name>: Remove <name> session.
+tmux kill-server: Remove all sessions.
+
+<Prefix> + d: Detach session.
+<Prefix> + $: Rename session.
+<Prefix> + s: Switch session.
+
+### Windows
+
+<Prefix> + c: Create new window.
+<Prefix> + ,: Rename window.
+<Prefix> + w: Switch window.
+<Prefix> + n: Go to next window.
+<Prefix> + p: Go to previous window.
+
+### Panes
+
+<Prefix> + ": Split pane vertically.
+<Prefix> + %: Split pane horizontally.
+<Prefix> + o: Go to next pane.
+<Prefix> + :: Go to previous pane.
+<Prefix> + {: Switch pane array to back.
+<Prefix> + x: Destroy pane.
+<Prefix> + z: Zoom pane.
