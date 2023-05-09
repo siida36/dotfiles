@@ -105,6 +105,10 @@ alias vim="nvim"
 alias python="python3"
 alias pip="pip3"
 
+if [[ ! $TERM =~ screen ]] && [ -z "$TMUX" ]; then
+    exec tmux
+fi
+
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/shohei.iida/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
